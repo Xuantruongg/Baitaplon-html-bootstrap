@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./img/backgroud2.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.logo{
+    width: 16%;
+    padding: 10px 0px 0px 40px;
+}
+.logo-img{
+    width: 100%;
+}
+.menu{
+    width: 84%;
+    padding-left: 30px;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff !important;
+}
+.header{
+    width: 100%;
+    background: #72685b;
+    position: fixed;
+    z-index: 1;
+}
+.menu ul li{
+    padding: 20px;
+}
+.menu ul li:hover a{
+    color: red !important;
+}
+.dropdown-menu :hover {
+    background:rgb(238, 238, 238)!important;
+}
+.dropdown-menu {
+    background: #8d8cdd !important;
+}
+.form{
+    width: 600px;
+    height: 400px;
+    background-size: 100%;
+    border: 1px solid black;
+}
+main{
+    padding-left: 460px;
+    padding-top: 200px;
+}
+.panel-title{
+    color: #fff;
+    padding:10px;
+}
+.panel-body{
+    padding: 30px 50px;
+}
+.submit{
+    text-align: center;
+}
+
+.icon{
+    padding: 10px;
+    font-size: 35px;
+    color: #fff;
+}

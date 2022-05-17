@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>registration</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./registration.css">
+  <link rel="stylesheet" href="./font/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="row align-items-center">
+      <div class="logo">
+        <img src="./img/logo.png"
+          class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+      </div>
+      <div class="menu">
+        <nav class="navbar navbar-expand-sm navbar-light ">
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="./home.html">Trang chủ </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./home.html" id="dropdownId" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Sản phẩm</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="./home.html">Giày Thể Thao Nam</a>
+                  <a class="dropdown-item" href="./home.html">Giày Thể Thao Nữ</a>
+                </div>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">khuyến Mãi </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Tin Tức </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Liên hệ </a>
+              </li>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 mt-3 p-2" type="text" placeholder="Tìm kiếm sản phẩm ....">
+                <button class="btn btn-outline-light my-2 my-sm-0 " type="submit"><i class="fas fa-search"></i></button>
+              </form>
+              <li>
+                <a class="nav-link" href="./login.html"><i class="fas fa-user item-is"></i></a>
+              </li>
+              <li>
+                <a class="nav-link" href="./cart.html"><i class="fas fa-shopping-cart item-is"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <form action="#" n class="form_groud" onsubmit="return submitform()">
+    <div class="anh">
+      <h2> Đăng kí</h2>
+      <div class="form_control">
+        <input type="name" name="" id="name" placeholder="Họ và tên:" class="input">
+        <span id="_name" class="bao">Không để họ tên trống</span>
+      </div>
+      <div class="form_control">
+        <input type="email" name="" id="email" placeholder="Email" class="input">
+        <span id="_email" class="bao">Không để email trống</span>
+      </div>
+      <div class="form_control">
+        <input type="Số điện thoại" name="" id="sodienthoai" placeholder="Số điện thoại" class="input">
+        <span id="_sodienthoai" class="bao">Không để số điện thoại trống</span>
+      </div>
+      <div class="form_control">
+        <input type="password" name="" id="password" placeholder="password" class="input">
+        <span id="_password" class="bao">Không để password trống</span>
+      </div>
+      <div class="form_submit">
+        <button type="submit">Đăng Kí</button>
+      </div>
+    </div>
+  </form>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./js/jquery-3.3.1.slim.min.js"></script>
+  <script src="jquery-validation-1.19.3/dist/jquery.validate.min.js"></script>
+  <script>
+    function submitform() {
+      var input = document.getElementsByClassName('input');
+      for (let index = 0; index < input.length; index++) {
+        if (input[index].value == '') {
+          document.getElementById('_' + input[index].id).innerHTML = input[index].id + ' Không rỗng';
+          document.getElementById('_' + input[index].id).style.display = 'block';
+        } else {
+          document.getElementById('_' + input[index].id).innerHTML = '';
+          document.getElementById('_' + input[index].id).style.display = 'none';
+        }
+        const element = input[index];
+      }
+    }
+  </script>
+</body>
+
+</html>

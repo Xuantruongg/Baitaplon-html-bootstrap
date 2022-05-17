@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Details</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./details.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./font/fontawesome-free-5.15.4-web/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="/Product-Gallery-Image-Zoom/Product-Gallery-Image-Zoom/css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="row align-items-center">
+      <div class="logo">
+        <img src="./img/logo.png"
+          class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+      </div>
+      <div class="menu">
+        <nav class="navbar navbar-expand-sm navbar-light ">
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="./home.html">Trang chủ </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="./produc.html">sản phẩm </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="./home.html">khuyến Mãi </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="./home.html">Tin Tức </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="./home.html">Liên hệ </a>
+              </li>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Tìm kiếm sản phẩm ....">
+                <button class="btn btn-outline-light my-2 my-sm-0 " type="submit"><i class="fas fa-search"></i></button>
+              </form>
+              <li>
+                <a class="nav-link" href="./login.html"><i class="fas fa-user item-is"></i></a>
+              </li>
+              <li>
+                <a class="nav-link" href="./cart.html"><i class="fas fa-shopping-cart item-is"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container pt-5 pb-5 sanpham">
+      <div class="row">
+        <div class="details col-lg-5">
+          <div href="">
+            <img src="./img/d1.jpg" id="show-img">
+          </div>
+          <div class="small-img">
+            <img src="Product-Gallery-Image-Zoom/Product-Gallery-Image-Zoom/images/online_icon_right@2x.png"
+              class="icon-left" alt="" id="prev-img">
+            <div class="small-container">
+              <div id="small-img-roll">
+                <img src="./img/d1.jpg" class="show-small-img" alt="">
+                <img src="./img/d2.jpg" class="show-small-img" alt="">
+                <img src="./img/d3.jpg" class="show-small-img" alt="">
+                <img src="./img/d4.jpg" class="show-small-img" alt="">
+                <img src="./img/d5.jpg" class="show-small-img" alt="">
+              </div>
+            </div>
+            <img src="Product-Gallery-Image-Zoom/Product-Gallery-Image-Zoom/images/online_icon_right@2x.png"
+              class="icon-right" alt="" id="next-img">
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="text">
+            <h3>Reebok Chính Hãng – SOLEFURY – Whitw/Blue | JapanSport – DV4481</h3>
+            <i class="fas fa-star text-warning pt-2"></i>
+            <i class="fas fa-star text-warning pt-2"></i>
+            <i class="fas fa-star text-warning pt-2"></i>
+            <i class="fas fa-star text-warning pt-2"></i>
+            <i class="fas fa-star text-warning pt-2"></i>
+            <h4 class="text-danger pt-3">2.900.000 <span class="tien">đ</span></h4>
+            <h5 class="pt-3">Hàng xách tay Nhật, Fullbox, Cam kết 100% chính hãng, Phát hiện hàng giả xin đền 10 lần
+              tiền.
+            </h5>
+            <h5 class="pt-4">Miễn phí đổi size | đổi mẫu trong 1 tuần !!!</h5>
+            <h5 class="pt-4">Size <select name="" id="">
+                <option value="1">chọn size của bạn</option>
+                <option value="2">Size 36</option>
+                <option value="3">Size 37</option>
+                <option value="4">Size 38</option>
+                <option value="5">Size 39</option>
+                <option value="6">Size 40</option>
+                <option value="7">Size 41</option>
+                <option value="8">Size 42</option>
+                <option value="9">Size 43</option>
+              </select>
+            </h5>
+            <div class="row pt-3">
+              <div class="col-lg-3 pt-2">
+                <h5>Số Lượng</h5>
+              </div>
+              <div class="col-lg-5 row">
+                <button onclick="tru()" class="btn btn-light w-25">-</button>
+                <input type="text" id="sl" value="1" class="text-center w-50">
+                <button onclick="cong()" class="btn btn-light w-25">+</button>
+              </div>
+              <div class="col-lg-4"></div>
+            </div>
+            <button class="btn btn-danger w-75 mt-4 button-giohang">Thêm Vào Giỏ Hàng </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sp-tt container">
+      <div class="h2 pb-5 text-sp">SẢN PHẨM TƯƠNG TỰ</div>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="card-imgg">
+            <a href=""><img class="card-img-top" src="./img/n2.jpg" alt=""></a>
+            <div class="card-body">
+              <a href="" class="text-dark">
+                <h4 class="card-title">Puma-Hanki</h4>
+              </a>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <h4 class="text-danger pt-2">490.999 đ</h4>
+              <a href="" class="btn btn-danger">
+                <p class="card-text"></p>xem ngay
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card-imgg">
+            <a href=""><img class="card-img-top" src="./img/n3.jpg" alt=""></a>
+            <div class="card-body">
+              <a href="" class="text-dark text">
+                <h4 class="card-title">Nike-balen</h4>
+              </a>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <h4 class="text-danger pt-2">1.890.999 đ</h4>
+              <a href="" class="btn btn-danger">
+                <p class="card-text"></p>xem ngay
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card-imgg">
+            <a href=""><img class="card-img-top" src="./img/15.jpg" alt=""></a>
+            <div class="card-body">
+              <a href="" class="text-dark">
+                <h4 class="card-title">Nike-Artone</h4>
+              </a>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <h4 class="text-danger pt-2">890.999 đ</h4>
+              <a href="" class="btn btn-danger">
+                <p class="card-text"></p>xem ngay
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card-imgg">
+            <a href=""><img class="card-img-top" src="./img/sp10.jpg" alt=""></a>
+            <div class="card-body">
+              <a href="" class="text-dark">
+                <h4 class="card-title">Nike-Jodan45</h4>
+              </a>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <h4 class="text-danger pt-2">9.890.999 đ</h4>
+              <a href="" class="btn btn-danger">
+                <p class="card-text"></p>xem ngay
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card-imgg">
+            <a href=""><img class="card-img-top" src="./img/sp13.jpg" alt=""></a>
+            <div class="card-body">
+              <a href="" class="text-dark">
+                <h4 class="card-title">Puma-Henka</h4>
+              </a>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <h4 class="text-danger pt-2">1.890.999 đ</h4>
+              <a href="" class="btn btn-danger">
+                <p class="card-text"></p>xem ngay
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card-imgg">
+            <a href=""><img class="card-img-top" src="./img/sp6.jpg" alt=""></a>
+            <div class="card-body">
+              <a href="" class="text-dark">
+                <h4 class="card-title">Aridas-Jodan</h4>
+              </a>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <h4 class="text-danger pt-2">890.999 đ</h4>
+              <a href="" class="btn btn-danger">
+                <p class="card-text"></p>xem ngay
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card-imgg">
+            <a href=""><img class="card-img-top" src="./img/sp7.jpg" alt=""></a>
+            <div class="card-body">
+              <a href="" class="text-dark">
+                <h4 class="card-title">Nike-Gugci</h4>
+              </a>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <h4 class="text-danger pt-2">790.999 đ</h4>
+              <a href="" class="btn btn-danger">
+                <p class="card-text"></p>xem ngay
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card-imgg">
+            <a href=""><img class="card-img-top" src="./img/sp8.jpg" alt=""></a>
+            <div class="card-body">
+              <a href="" class="text-dark">
+                <h4 class="card-title">Ghock-nike</h4>
+              </a>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <h4 class="text-danger pt-2">890.999 đ</h4>
+              <a href="" class="btn btn-danger">
+                <p class="card-text"></p>xem ngay
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card-imgg">
+            <a href=""><img class="card-img-top" src="./img/sp9.jpg" alt=""></a>
+            <div class="card-body">
+              <a href="" class="text-dark">
+                <h4 class="card-title">Nike-Jodan4</h4>
+              </a>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <h4 class="text-danger pt-2">890.999 đ</h4>
+              <a href="" class="btn btn-danger">
+                <p class="card-text"></p>xem ngay
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card-imgg">
+            <a href=""><img class="card-img-top" src="./img/sp14.jpg" alt=""></a>
+            <div class="card-body">
+              <a href="" class="text-dark">
+                <h4 class="card-title">Nike-Jodan4</h4>
+              </a>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <h4 class="text-danger pt-2">1.890.999 đ</h4>
+              <a href="" class="btn btn-danger">
+                <p class="card-text"></p>xem ngay
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <h2 class="container pt-4 text-center"># Thương Hiệu Nổi Tiếng</h2>
+  <p class="container text-center">Chúng tôi luôn đem đến những thương hiệu hàng đầu thế giới</p>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-2 carousel-img">
+              <img src="./img/logo1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-lg-2 carousel-img">
+              <img src="./img/logo2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-lg-2 carousel-img">
+              <img src="./img/logo4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-lg-2 carousel-img">
+              <img src="./img/logo5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-lg-2 carousel-img">
+              <img src="./img/logo6.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-2 carousel-img">
+              <img src="./img/logo7.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-lg-2 carousel-img">
+              <img src="./img/logo8.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-lg-2 carousel-img">
+              <img src="./img/logo1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-lg-2 carousel-img">
+              <img src="./img/logo2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-lg-2 carousel-img">
+              <img src="./img/logo3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 pt-4 pb-4">
+          <h4 class="pb-2 text-white">Thông Tin Liên Hệ</h4>
+          <i class="fas fa-map-marker-alt text-danger pt-3"><span class="text-white"> Địa chỉ: 250 Hoàng Quốc Việt,
+              Cầu Giấy, Hà Nội</span></i>
+          <br>
+          <i class="fas fa-phone-alt text-danger pt-3"><span class="text-white"> Hotline: (+84) 397186546</span></i>
+          <br>
+          <i class="fas fa-envelope text-danger pt-3"><span class="text-white"> Email: giaydep@gmail.com</span></i>
+        </div>
+        <div class="col-lg-3 pt-4 pb-4">
+          <h4 class="text-left pb-2 text-white">Chính Sách</h4>
+          <h6 class="text-white"><a href="./home.html" class="text-white">Hướng Dẫn Mua Hàng</a></h6>
+          <h6 class=" pt-3"><a href="./home.html" class="text-white">Chính Sách Thanh Toán</a></h6>
+          <h6 class=" pt-3"><a href="./home.html" class="text-white">Chính Sách Bảo Hàng</a></h6>
+          <h6 class="text-white pt-3"><a href="./home.html" class="text-white">Chính Sách Vận Chuyển</a></h6>
+        </div>
+        <div class="col-lg-2 pt-4 pb-4">
+          <h4 class=" pb-2 text-white">Thông Tin</h4>
+          <h6><a href="./home.html" class="text-white">Về Chúng Tôi</a></h6>
+          <h6 class=" pt-3"><a href="./home.html" class="text-white">Đặt Câu Hỏi</a></h6>
+          <h6 class=" pt-3"><a href="./home.html" class="text-white">Tin Tức</a></h6>
+          <h6 class=" pt-3"><a href="./home.html" class="text-white">Liên Hệ</a></h6>
+        </div>
+        <div class="col-lg-4 pt-4 pb-4">
+          <h4 class=" pb-2  text-white text-center">Đăng Kí Nhận Tin</h4>
+          <h6 class="text-white">Gửi email đăng ký để nhận thông báo mới nhất về khuyến mãi dành riêng cho bạn.</h6>
+          <div class="form row">
+            <input type="text" placeholder="Nhập email" class="input-footer">
+            <button type="submit" class="button-footer">Đăng Kí</button>
+          </div>
+          <img src="./img/payment-footer.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} pl-3 w-100"
+            alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="Product-Gallery-Image-Zoom/Product-Gallery-Image-Zoom/scripts/zoom-image.js"></script>
+  <script src="Product-Gallery-Image-Zoom/Product-Gallery-Image-Zoom/scripts/main.js"></script>
+  <script src="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script>
+    function cong() {
+      var a = document.getElementById("sl").value;
+      a = Number(a);
+      var b = 1;
+
+      var kq = (document.getElementById("sl").value = a + 1);
+    }
+
+    function tru() {
+      var a = document.getElementById("sl").value;
+      a = Number(a);
+      var b = 1;
+      if (a == "1") {
+        var kq = (document.getElementById("sl").value = "1");
+      } else {
+        var kq = (document.getElementById("sl").value = a - 1);
+      }
+    }
+
+    $('.owl-carousel').owlCarousel({
+      stagePadding: 50,
+      loop: true,
+      dots: false,
+      margin: 10,
+      nav: false,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>

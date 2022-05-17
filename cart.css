@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .logo{
+    width: 15%;
+    padding: 10px 0px 0px 40px;
+  }
+  .logo-img{
+    width: 100%;
+  }
+  .menu{
+    width: 84%;
+    padding-left: 30px;
+  }
+  .menu ul li a{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff !important;
+  }
+  .header{
+    width: 100%;
+    background: #72685b;
+    margin-bottom: 40px;
+    position: fixed;
+    z-index: 1;
+  }
+  .menu ul li{
+    padding: 20px;
+  }
+  .menu ul li:hover a{
+    color: red !important;
+  }
+  .dropdown-menu :hover {
+    background:rgb(238, 238, 238)!important;
+  }
+  .dropdown-menu {
+    background: #8d8cdd !important;
+  }
+  .form-inline button{
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  }
+  .form-inline{
+    padding-left: 45px;
+  }
+  .banner{
+    padding-top: 115px;
+  }
+  .form-inline:hover button{
+    background:rgb(230, 42, 42)!important;
+  }
+  .dangnhap{
+    padding-top: 100px;
+  }
+  .item-is{
+    font-size: 25px;
+  }
+  .control-icon{
+    background: rgb(231, 217, 217);
+    margin: 0 auto;
+  }
+  .icon{
+    font-size: 32px;
+  }
+  .row{
+    justify-content: space-between;
+  }
+  main{
+    padding-top: 100px;
+
+  }
+  h2{
+    color: red !important;
+  }
+  .text{
+    padding: 20px 0px;
+    background-color: rgb(252, 240, 240);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  }
+  .tieude{
+    margin-top: 20px;
+    padding: 10px 0px 0px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .sanpham{
+    padding-top: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }

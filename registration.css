@@ -1,0 +1,96 @@
+ *{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   
+ }
+ body{
+   font-family: 'Noto Sans JP', sans-serif;
+   background-image: url(./img/backgroud2.gif);
+ }
+.logo{
+  width: 15%;
+  padding: 10px 0px 0px 40px;
+}
+.logo-img{
+  width: 100%;
+}
+.menu{
+  width: 84%;
+  padding-left: 30px;
+}
+.menu ul li a{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff !important;
+}
+.header{
+  width: 100%;
+  background: #72685b;
+  position: fixed;
+  z-index: 1;
+}
+.menu ul li{
+  padding: 20px;
+}
+.menu ul li:hover a{
+  color: red !important;
+}
+.dropdown-menu :hover {
+  background:rgb(238, 238, 238)!important;
+}
+.dropdown-menu {
+  background: #8d8cdd !important;
+}
+ h1, label{
+   color: DodgerBlue;
+ }
+h2{
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+.form_groud{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 40%;
+}
+.form_control{
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.form_control input{
+    width: 100%;
+    padding: 7px;
+    font-size: 20px;
+    background: rgba(252, 249, 249, 0.4);
+}
+.form_submit{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.form_submit button{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    background-color: crimson;
+    cursor: pointer;
+}
+.form_groud .form_submit:hover button{
+    background: rgb(136, 182, 52);
+}
+.bao{
+    padding: 5px;
+    display: inline-block;
+    color: red;
+    display: none;
+    font-size: 18px;
+}
+.anh{
+  padding-bottom: 20px;
+  border: 1px solid rgb(103, 9, 253);
+}

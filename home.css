@@ -1,0 +1,132 @@
+.logo{
+    width: 15%;
+    padding: 10px 0px 0px 40px;
+}
+.logo-img{
+    width: 100%;
+}
+.menu{
+    width: 84%;
+    padding-left: 30px;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff !important;
+}
+.card-imgg:hover img {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    cursor: pointer;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background: #72685b;
+}
+.menu ul li{
+    padding: 15px;
+}
+.menu ul li:hover a{
+    color: red !important;
+}
+.dropdown-menu :hover {
+    background:rgb(238, 238, 238)!important;
+}
+.dropdown-menu {
+    background: #8d8cdd !important;
+}
+.card-img-overlay-cut{
+    color: rgb(39, 38, 38);
+    top: 20% !important;
+    margin-left :150px ;
+}
+.carousel-control-next{
+    border: none;
+    background: none;
+}
+.carousel-control-prev{
+    border: none;
+    background: none;
+}
+.form-inline button{
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+.form-inline{
+    padding-left: 45px;
+}
+.banner{
+    padding-top: 115px;
+}
+.form-inline:hover button{
+    background:rgb(230, 42, 42)!important;
+}
+.dangnhap{
+    padding-top: 100px;
+}
+.item-is{
+    font-size: 25px;
+}
+.control-icon{
+    background: rgb(231, 217, 217);
+    margin: 0 auto;
+}
+.icon{
+    font-size: 32px;
+}
+.row{
+    justify-content: space-between;
+    margin: 10px;
+}
+.img-sp{
+    padding: 5px;
+    position: relative;
+}
+.text-h3{
+    padding: 10px;
+    border-bottom: 2px solid rgb(46, 46, 45);
+}
+.card :hover a{
+    color: red;
+    text-decoration: none;
+}
+.tien{
+    text-decoration: underline;
+}
+.carousel-img{
+    border: 1px solid black;
+    cursor: grab;
+}
+.carousel-control-prev{
+    cursor: pointer;
+}
+.carousel-control-next{
+    cursor: pointer;
+}
+.footer{
+    background-image: url(./img/backgroud.jpg);
+    padding: 0px 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.input-footer{
+    padding: 8px;
+    margin: 10px 20px;
+    justify-content: center;
+    background: rgb(71, 67, 75);
+    border: none;
+    border-radius: 5px;
+}
+.button-footer{
+    margin: 10px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background: chocolate; 
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+}
